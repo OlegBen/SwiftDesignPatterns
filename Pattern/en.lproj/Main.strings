@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Abstract factory"; ObjectID = "17m-Zz-r00"; */
+"17m-Zz-r00.normalTitle" = "Abstract factory";
+
+/* Class = "UILabel"; text = "Вторая настройка"; ObjectID = "7QS-E8-ud3"; */
+"7QS-E8-ud3.text" = "Вторая настройка";
+
+/* Class = "UINavigationItem"; title = "Singleton"; ObjectID = "OGt-sg-6x8"; */
+"OGt-sg-6x8.title" = "Singleton";
+
+/* Class = "UINavigationItem"; title = "Паттерны"; ObjectID = "TaU-Cy-VBQ"; */
+"TaU-Cy-VBQ.title" = "Паттерны";
+
+/* Class = "UILabel"; text = "Первая настройка"; ObjectID = "fSh-Wo-mEL"; */
+"fSh-Wo-mEL.text" = "Первая настройка";
+
+/* Class = "UIButton"; normalTitle = "Singleton"; ObjectID = "rC5-YP-x9s"; */
+"rC5-YP-x9s.normalTitle" = "Singleton";
+
+/* Class = "UILabel"; text = "Ваш отзыв"; ObjectID = "rra-7N-oOu"; */
+"rra-7N-oOu.text" = "Ваш отзыв";
+
+/* Class = "UIButton"; normalTitle = "Factory"; ObjectID = "xD0-FH-hv8"; */
+"xD0-FH-hv8.normalTitle" = "Factory";
