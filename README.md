@@ -14,3 +14,5 @@ git clone https://github.com/OlegBen/designPatterns.git
 1. Singleton
 2. Factory
 3. Facade
+4. Adapter
+5. Decorator
