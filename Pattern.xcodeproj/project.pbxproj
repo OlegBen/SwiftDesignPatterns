@@ -25,6 +25,8 @@
 		27A7EDBA25A38CA000C5FCAC /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A7EDB925A38CA000C5FCAC /* SingletonViewController.swift */; };
 		27A7EDBE25A39B8E00C5FCAC /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A7EDBD25A39B8E00C5FCAC /* FactoryViewController.swift */; };
 		27A7EDC125A45AB000C5FCAC /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A7EDC025A45AB000C5FCAC /* ExerciseTableViewCell.swift */; };
+		CE61AB13270C3380008C24BB /* BuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61AB12270C3380008C24BB /* BuilderViewController.swift */; };
+		CE61AB17270C341D008C24BB /* CarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61AB16270C341D008C24BB /* CarBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		27A7EDB925A38CA000C5FCAC /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
 		27A7EDBD25A39B8E00C5FCAC /* FactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryViewController.swift; sourceTree = "<group>"; };
 		27A7EDC025A45AB000C5FCAC /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		CE61AB12270C3380008C24BB /* BuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderViewController.swift; sourceTree = "<group>"; };
+		CE61AB16270C341D008C24BB /* CarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 				2796555A26EE7FA800B560EF /* Facade */,
 				2796556426EE936A00B560EF /* Adapter */,
 				2796556F26EFDE6600B560EF /* Decorator */,
+				CE61AB10270C3347008C24BB /* Builder */,
 				27A7ED9E259F8E9700C5FCAC /* AppDelegate.swift */,
 				27A7EDA2259F8E9700C5FCAC /* ViewController.swift */,
 				27A7EDA4259F8E9700C5FCAC /* Main.storyboard */,
@@ -157,6 +162,15 @@
 				27A7EDC025A45AB000C5FCAC /* ExerciseTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		CE61AB10270C3347008C24BB /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				CE61AB12270C3380008C24BB /* BuilderViewController.swift */,
+				CE61AB16270C341D008C24BB /* CarBuilder.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,7 @@
 			files = (
 				2796556D26EE975C00B560EF /* ValueAdapter.swift in Sources */,
 				2796557526EFE15900B560EF /* SetOfFurniture.swift in Sources */,
+				CE61AB17270C341D008C24BB /* CarBuilder.swift in Sources */,
 				2796555C26EE801D00B560EF /* FacadeViewController.swift in Sources */,
 				27A7EDB4259F8FA600C5FCAC /* Settings.swift in Sources */,
 				27A7EDBA25A38CA000C5FCAC /* SingletonViewController.swift in Sources */,
@@ -242,6 +257,7 @@
 				27A7EDA3259F8E9700C5FCAC /* ViewController.swift in Sources */,
 				27A7ED9F259F8E9700C5FCAC /* AppDelegate.swift in Sources */,
 				2796557126EFE07300B560EF /* DecoratorViewController.swift in Sources */,
+				CE61AB13270C3380008C24BB /* BuilderViewController.swift in Sources */,
 				27A7EDBE25A39B8E00C5FCAC /* FactoryViewController.swift in Sources */,
 				2796556626EE938200B560EF /* AdapterViewController.swift in Sources */,
 				2796556A26EE963A00B560EF /* SHA256Encoder.swift in Sources */,
